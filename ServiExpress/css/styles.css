@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.8)), url(/images/Construccion.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 170px;
+    cursor: pointer;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+
+.navbar ul li a {
+text-decoration: none;
+color: white;
+font-family: Roboto, "sans-serif";
+font-size: 20px;
+
+}
+
+.navbar ul li:before {
+content: "";
+height: 3px;
+width: 0%;
+background: yellowgreen;
+position: absolute;
+left: 0;
+bottom: -12px;
+transition: 0.4s ease-out;
+
+}
+
+.navbar ul li:hover:before {
+width: 100%;
+
+}
+
+.contenido {
+    width: 50%;
+    padding: 30px;
+    margin: auto;
+    background-color: transparent;
+    
+}
+
+.mapa{
+    width: 950px;
+    height: 500px;
+    
+    border: 0px;
+
+     
+}
+
+
+.titulo {
+    color: white;
+    font-family: Roboto, "sans-serif";
+    font-size: 45px;
+    padding: 20px;
+}
+
+.texto {
+    color: white;
+    font-size: 20px;
+    
+}
+
+.inicio {
+text-align: center;
+}
+
+.servicios {
+    text-align: center;
+    visibility: hidden;
+}
+
+.quienessomos {
+    text-align: center;
+    visibility: hidden;
+}
+
+.contactenos {
+    text-align: center;
+    visibility: hidden;
+}
+
+    
